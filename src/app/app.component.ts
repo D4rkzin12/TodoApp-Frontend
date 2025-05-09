@@ -16,7 +16,7 @@ export class AppComponent {
   arrayDeTarefas: Tarefa[] = [];
 
  constructor(private http: HttpClient) {
- this.apiURL = 'http://localhost:3000';
+ this.apiURL = 'https://todoapp-backend-vahv.onrender.com';
  this.READ_tarefas();
  }
 
